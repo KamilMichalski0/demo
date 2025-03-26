@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+aws:
+  accessKey: your-access-key
+  secretKey: your-secret-key
+  region: eu-west-1
+  bucket: your-bucket-name
+
+keystore:
+  fileName: keystore.jks
+  password: password
+  path: keystore.jks
+
+ems:
+  serverUrl: tcp://localhost:7222
+  username: admin
+  password: admin
+  queueName: cert.check.queue
